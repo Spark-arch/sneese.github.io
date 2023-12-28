@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rabbiton University</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/newlog final.png" alt="Rabbit University Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li> 
+          <li><a href="About.html">ABOUT</a></li> 
+          <li><a href="Course.html">COURSE</a></li> 
+          <li><a href="blog.html">BLOG</a></li> 
+          <li><a href="Contact.html">Contact</a></li> 
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <h1>Our Courses</h1>
+  </section>
+
+  <!------- Course ------>
+  
+  <section class="course">
+    <h1>Paths We Offer</h1>
+    <p>Bulid your hopes and dreams at Rabbiton University!</p>
+  
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Embark on the next level of rabbit education! Dive deeper into the world of lagomorphs with our intermediate courses. From advanced hopping techniques to entrepreneurial ventures in the rabbit realm, sharpen your skills and enrich your understanding of these furry friends.</p>
+      </div>
+  
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>Become a connoisseur of rabbit wisdom with our specialized degrees in Lagomorph Studies. From mastering the art of hopping efficiency to understanding the nuanced language of rabbits, our programs offer a comprehensive education for those seeking to immerse themselves in the enchanting world of lagomorphs.</p>
+      </div>
+  
+      <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Celebrate the achievement of Rabbiton University graduates! With a well-rounded education encompassing hopping mastery, entrepreneurial acumen, and a deep understanding of rabbit psychology, our alumni are poised to bridge the gap between the whimsical world of lagomorphs and the wisdom gained through academic excellence.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!------- facilites ------------------->
+
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Explore our world-class facilities designed to enhance your rabbit hopping experience.</p>
+  
+    <div class="row">
+      <div class="facilities-col">
+        <img src="images/school-library.png" alt="Library Image">
+        <h3>World-Class Library</h3>
+        <p>Immerse yourself in a collection of hopping-related literature and resources.</p>
+      </div>
+  
+      <div class="facilities-col">
+        <img src="images/track-field.png" alt="Track-Field Image">
+        <h3>Track-Field</h3>
+        <p>Perfect your hopping technique on our state-of-the-art track and field.</p>
+      </div>
+  
+      <div class="facilities-col">
+        <img src="images/classroom-full-of-plants.png" alt="Garden Club Image">
+        <h3>Garden Club</h3>
+        <p>Connect with nature in our beautiful garden club, a peaceful retreat for hopping enthusiasts.</p>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+<section class="footer">
+  <h4>About US</h4>
+  <p>Dive into a world of unparalleled rabbit hopping experiences as you explore our meticulously crafted, world-class facilities. <br>Designed to elevate the joy of every leap, our spaces promise a haven for bunnies to showcase their agility and delight in the art of hopping.</p>
+  <div class="icons">
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-tiktok"></i>
+  <i class="fa-brands fa-linkedin"></i>
+</div>
+  <p>Made with <i class="fa-regular fa-heart"></i> By Toothless</p>
+
+</section>
+
+
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
+

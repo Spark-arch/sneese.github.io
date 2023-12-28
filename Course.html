@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rabbiton University</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/newlog final.png" alt="Rabbit University Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li> 
+          <li><a href="About.html">ABOUT</a></li> 
+          <li><a href="Course.html">COURSE</a></li> 
+          <li><a href="blog.html">BLOG</a></li> 
+          <li><a href="Contact.html">Contact</a></li> 
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <h1>Our Certificates & Online Programs for 2024</h1>
+  </section>
+
+  <!------- Blog page content ------>
+  
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="images/anime-rabbit-dress-in-cap-and-gown.png" alt="Rabbit Image">
+        <h2>Our Certificates & Online Programs for 2024</h2>
+        <p>Rabbiton University is proud to offer an extensive array of certificates and programs, providing rabbit enthusiasts with a comprehensive education in rabbit care, behavior, and overall well-being. Whether you're a novice venturing into the world of rabbit ownership or an experienced bunny aficionado seeking to deepen your understanding, our thoughtfully designed offerings cater to all levels of expertise.</p>
+        <br>
+        <p>Embark on a foundational journey with our Certificate in Rabbit Care, a program that covers the essentials of responsible rabbit ownership. From mastering proper nutrition and grooming techniques to creating a secure and stimulating living environment, this certificate empowers you to forge a strong and healthy bond with your furry companion. Gain practical insights that will elevate your ability to provide attentive care and ensure the well-being of your beloved bunny.</p>
+        <br>
+        <p>Dive into the intricate world of rabbit behavior with our Behavior and Training Program. Uncover the nuances of rabbit communication, socialization, and positive reinforcement training techniques. Designed to deepen your understanding of your bunny's needs and behaviors, this program fosters a harmonious and fulfilling relationship between you and your rabbit, enriching the companionship you share.</p>
+        <br>
+        <p>Explore the art of enhancing your bunny's quality of life through our Bunny Enrichment Course. This comprehensive program delves into the creation of creative play spaces, the selection of appropriate toys, and the design of engaging activities that cater to your rabbit's natural instincts. Learn to provide mental and physical stimulation, ensuring a happy and well-rounded lifestyle for your furry friend.</p>
+        <br>
+        <p>For those eager to delve into the intricacies of rabbit health, our Advanced Topics in Rabbit Health program is a valuable resource. Covering common health issues, preventive care strategies, and emergency response, this program equips you with the knowledge needed to keep your bunny in optimal health throughout their life.</p>
+        <br>
+        <p>Considering rabbit breeding? Our Professional Rabbitry Management Certification program offers in-depth expertise in responsible breeding practices, genetics, and ethical considerations. Whether you aspire to establish a successful rabbitry or simply deepen your knowledge, this certification program provides valuable insights into the world of rabbit breeding.</p>
+        <br>
+        <p>At Rabbiton University, our commitment extends beyond education to cultivating a vibrant community of well-informed and passionate rabbit enthusiasts. Join us in the exploration of rabbit care, behavior, and the joy that comes with sharing your life with these enchanting furry friends. Enroll today and become an integral part of the Rabbiton community!</p>
+
+        <div class="comment-box">
+
+          <h3>Leave a comment</h3>
+
+          <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+            <textarea rows="5" placeholder="Your comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+          </form>
+
+        </div>
+        <!-- Other content for the left side of the blog can go here -->
+      </div>
+      <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+          <span>Certificate in Rabbit Care</span>
+          <span>121</span>
+        </div>
+        <div>
+          <span>Behavior and Training</span>
+          <span>222</span>
+        </div>
+        <div>
+          <span>Rabbit Behavior Specialist</span>
+          <span>903</span>
+        </div>
+        <div>
+          <span>Bunny Enrichment</span>
+          <span>876</span>
+        </div>
+        <div>
+          <span>Professional Rabbitry<br> Management</span>
+          <span>095</span>
+        </div>
+        <div>
+          <span>Rabbit First Aid and Emergency Response Course</span>
+          <span>654</span>
+        </div>
+        <div>
+            <span>Rabbit-Safe Environments Design Course</span>
+            <span>270</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <!------- facilites ------------------->
+
+  
+
+<section class="footer">
+  <h4>About US</h4>
+  <p>Dive into a world of unparalleled rabbit hopping experiences as you explore our meticulously crafted, world-class facilities. <br>Designed to elevate the joy of every leap, our spaces promise a haven for bunnies to showcase their agility and delight in the art of hopping.</p>
+  <div class="icons">
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-tiktok"></i>
+  <i class="fa-brands fa-linkedin"></i>
+</div>
+  <p>Made with <i class="fa-regular fa-heart"></i> By Toothless</p>
+
+</section>
+
+
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
+

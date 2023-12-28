@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rabbiton University</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/newlog final.png" alt="Rabbit University Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li> 
+          <li><a href="About.html">ABOUT</a></li> 
+          <li><a href="Course.html">COURSE</a></li> 
+          <li><a href="blog.html">BLOG</a></li> 
+          <li><a href="Contact.html">Contact</a></li> 
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <h1> About Us</h1>
+  </section>
+
+  <!-- about us content ------>
+
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>We are the world's furriest University</h1>
+        <p>
+          Welcome to Rabbiton University, your hub for all things rabbit-related! As devoted bunny enthusiasts, we've created a virtual space dedicated to sharing valuable insights into rabbit care, behavior, and the joy of bunny companionship. Whether you're a seasoned rabbit owner or a curious newcomer, Rabbiton University offers a community-driven platform where you can access information, resources, and connect with like-minded bunny lovers. Join us in exploring the enchanting world of rabbits—because at Rabbiton University, every bunny matters, and every bunny lover is part of our thriving community.
+        </p>
+        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+        <img src="images/a-rabbit-studying-for-a-test-wearing-glasses-.png">
+    </div>
+    
+
+  </section>
+
+  
+
+<section class="footer">
+  <h4>About US</h4>
+  <p>Dive into a world of unparalleled rabbit hopping experiences as you explore our meticulously crafted, world-class facilities. <br>Designed to elevate the joy of every leap, our spaces promise a haven for bunnies to showcase their agility and delight in the art of hopping.</p>
+  <div class="icons">
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-twitter"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-tiktok"></i>
+  <i class="fa-brands fa-linkedin"></i>
+</div>
+  <p>Made with <i class="fa-regular fa-heart"></i> By Toothless</p>
+
+</section>
+
+
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
+
